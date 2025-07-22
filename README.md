@@ -33,7 +33,7 @@ Diseñar un **nanobody 100% humanizado, estable y específico** que reconozca un
 ## 📂 Contenido del Repositorio
 
 - **`PIA_KRASv2-Nb_Report.pdf`**: Artículo científico completo con la descripción del método PIA, los resultados y la validación *in silico* detallada.
-- **`AlphaFold_models/`**: Estructuras 3D en formato `.pdb` de las semillas de élite (72, 13 y 10).
+- **`AlphaFold_models/`**: Estructuras 3D en formato `.cif` de las semillas de élite (72, 13 y 10).
 - **`LICENSE.md`**: Licencia detallada del proyecto.
 
 ---
@@ -41,19 +41,16 @@ Diseñar un **nanobody 100% humanizado, estable y específico** que reconozca un
 ## 📌 Secuencias Clave
 
 ### Nanobody PIA-KRASv2-Nb (FASTA)
-
-```fasta
 >PIA-KRASv2-Nb_Original_Sequence
 EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYAMSWVRQAPGKGLEWVSSISSSSSYIYY
 ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARDYYYGMDVWGQGTTVTVSSDIQ
 
 ### Epítopo Objetivo (KRAS res. 23-32)
-```fasta
 >KRAS_epitope_DEYDPTIEDS
 DEYDPTIEDS
 
 
-📈 Resultados Principales
+## 📈 Resultados Principales
 Parámetro	Valor	Herramienta
 ipTM (Confianza Unión)	0.78	AlphaFold-Multimer v3 (Seed 72)
 pTM (Estructura Global)	0.92	AlphaFold-Multimer v3
@@ -61,19 +58,19 @@ Humanización (Familia)	✅ 1.0	Hu-mAb (Familia Humana VH3)
 RMSD (Estabilidad CDR3)	0.19 Å	NanoBodyBuilder2
 
 
-🧪 Aplicaciones Propuestas
+## 🧪 Aplicaciones Propuestas
 Terapia Dirigida: Inhibición directa y pan-mutante de la señalización de KRAS.
 
 Diagnóstico Molecular: Desarrollo de biosensores epítopo-específicos de alta afinidad.
 
 Ingeniería de Proteínas: Como base para formatos bivalentes o conjugados anticuerpo-fármaco (ADC).
 
-🤝 Contacto y Colaboración
+## 🤝 Contacto y Colaboración
 Este proyecto está abierto a la validación experimental. Si trabajas en inmunoterapia, biología estructural o ensayos celulares y tienes interés en colaborar en este proyecto, puedes contactar con el autor:
 
-📧 Nacho Peinador
+## [📧 Nacho Peinador](mailto:joseignacio.peinador@gmail.com)
 
-📄 Licencia
+## 📄 Licencia
 Este proyecto está licenciado bajo la Creative Commons Attribution-NonCommercial 4.0 International.
 
-Por favor, consulta el archivo LICENSE.md para ver los términos completos, incluyendo las condiciones para licencias comerciales.
+Este trabajo ha sido registrado en el Registro de la Propiedad Intelectual de España para establecer una prueba fehaciente de autoría y fecha de creación. Por favor, consulta el archivo LICENSE.md para ver los términos completos, incluyendo las condiciones para licencias comerciales.
