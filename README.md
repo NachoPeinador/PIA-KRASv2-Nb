@@ -1,14 +1,86 @@
-# PIA-KRASv2-Nb
-Diseño computacional del nanocuerpo PIA-KRASv2-Nb: Un inhibidor humanizado de KRAS generado mediante el método Protein Interaction Architect (PIA). Incluye modelos 3D y validación estructural.
-# PIA-KRASv2-Nb: Nanocuerpo Humanizado Anti-KRAS Diseñado con el Método PIA
+# 🧬 PIA-KRASv2-Nb: Nanobody de Alta Afinidad contra KRAS
 
-![AlphaFold Prediction](/PIAvsKRAS_s72.png)  
-*Estructura predicha del complejo PIA-KRASv2-Nb (verde) unido al epítopo DEYDPTIEDS de KRAS (naranja). ipTM = 0.78, pTM = 0.92.*
+Este repositorio documenta el diseño y validación in silico del nanobody PIA-KRASv2-Nb, una molécula terapéutica dirigida contra el epítopo accesible `DEYDPTIEDS` de la proteína KRAS. Combina herramientas estructurales, predicciones de inmunogenicidad y análisis biofísicos para justificar su potencial en inmunoterapia y diagnóstico molecular.
 
-## 📌 Descripción
-Repositorio oficial del proyecto **PIA-KRASv2-Nb**, un nanocuerpo terapéutico diseñado computacionalmente para inhibir la oncoproteína KRAS mediante unión al epítopo `DEYDPTIEDS` en la región Switch I. 
-El diseño utiliza el método **Protein Interaction Architect (PIA)**, que combina:
-- Muestreo cuántico-armónico con el operador $\hat{\mathcal{PIA}}$.
-- Humanización intrínseca (familia VH3, score Hu-mAb = 1.0).
-- Validación multinivel (AlphaFold, SCALOP, NanoBodyBuilder2).
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+![Modelo 3D PIA-KRASv2Nb](/PIA-KRASv2Nb_modelo72.png)
+
+> 📌 *La imagen anterior corresponde al modelo estructural más confiable generado con AlphaFold-Multimer v3 utilizando la semilla 72, que arrojó una puntuación de ipTM = 0.78 y pTM = 0.92.*
+
+---
+
+## 🔍 Objetivo
+
+Diseñar un **nanobody humanizado, estable y específico** que reconozca un epítopo lineal de KRAS con alta afinidad y potencial uso terapéutico en cánceres KRAS-dependientes.
+
+---
+
+## 🔧 Herramientas utilizadas
+
+- [AlphaFold-Multimer v3](https://alphafold.ebi.ac.uk/)
+- [Therapeutic Antibody Profiler (TAP)](https://opig.stats.ox.ac.uk/webapps/profiler)
+- [ANARCI](https://opig.stats.ox.ac.uk/webapps/anarci/)
+- [SCALOP](https://opig.stats.ox.ac.uk/webapps/scalop)
+- [NanoBodyBuilder2](https://opig.stats.ox.ac.uk/webapps/nanobodybuilder2)
+- [Hu-mAb (Humanization Classifier)](https://opig.stats.ox.ac.uk/webapps/humab)
+
+---
+
+## 📎 Documentación incluida
+
+- `PIA_KRASv2Nb.txt`: Documento LaTeX con descripción científica completa
+- `Apéndice_validación.txt`: Validaciones in silico detalladas
+- `AlphaFold_models/`: Estructuras 3D en formato `.pdb`
+- `Data_analysis/`: Scripts para evaluación estructural y análisis de unión
+
+---
+
+## 📌 Secuencias
+
+### Nanobody PIA-KRASv2Nb (FASTA)
+
+```fasta
+>PIA-KRASv2Nb
+EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYAMSWVRQAPGKGLEWVSSISSSSSYIYY
+ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARDYYYGMDVWGQGTTVTVSSDIQ
+```
+
+### Epítopo objetivo (KRAS)
+
+```fasta
+>KRAS_epitope_DEYDPTIEDS
+DEYDPTIEDS
+```
+
+---
+
+## 📈 Resultados clave
+
+| Parámetro                | Valor   | Herramienta              |
+|--------------------------|---------|---------------------------|
+| ipTM (confianza unión)   | **0.78** | AlphaFold-Multimer v3 (Seed 72) |
+| pTM (estructura global)  | **0.92** | AlphaFold-Multimer v3     |
+| Humanización (VH3)       | ✅ 1.000 | Hu-mAb                    |
+| RMSD (estabilidad CDRs)  | 0.19 Å  | NanoBodyBuilder2          |
+
+---
+
+## 🧪 Aplicaciones propuestas
+
+- Inhibición directa de KRAS (terapia dirigida)
+- Formatos multivalentes o conjugados para diagnóstico
+- Biosensores epítopo-específicos
+
+---
+
+## 🤝 Contacto y colaboración
+
+Este proyecto está abierto a validaciones experimentales. Si trabajas en inmunoterapia, biología estructural o ensayos in vitro y te interesa colaborar:
+
+📧 nachopeinador [at] protonmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/nachopeinador)
+
+---
+
+## 📄 Licencia
+
+Este proyecto está licenciado bajo [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
