@@ -41,16 +41,17 @@ Diseñar un **nanobody 100% humanizado, estable y específico** que reconozca un
 ## 📌 Secuencias Clave
 
 ### Nanobody PIA-KRASv2-Nb (FASTA)
-```fasta
+```
 >PIA-KRASv2-Nb_Original_Sequence
 EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYAMSWVRQAPGKGLEWVSSISSSSSYIYY
 ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARDYYYGMDVWGQGTTVTVSSDIQ
-```fasta
-```fasta
+```
+
+```
 ### Epítopo Objetivo (KRAS res. 23-32)
 >KRAS_epitope_DEYDPTIEDS
 DEYDPTIEDS
-```fasta
+```
 ---
 
 ## 📈 Resultados Principales
