@@ -1,31 +1,46 @@
-PIA-KRASv2-Nb - Diseño computacional de un nanocuerpo anti-KRAS
-Copyright (C) 2025 Nacho Peinador
+# Licencia del Proyecto PIA-KRASv2-Nb
 
-Esta obra está sujeta a la licencia Creative Commons Attribution-NonCommercial 4.0 International.
-Para ver una copia de esta licencia, visite:
-https://creativecommons.org/licenses/by-nc/4.0/
+**Título de la Obra:** PIA-KRASv2-Nb - Diseño computacional de un nanocuerpo anti-KRAS
+**Autor y Titular de los Derechos:** © 2025 Nacho Peinador Sala
 
-TERMINOS Y CONDICIONES:
+---
 
-Usted es libre de:
-- Compartir — copiar y redistribuir el material en cualquier medio o formato.
-- Adaptar — remezclar, transformar y construir sobre el material.
+## 1. Licencia Principal
 
-Bajo los siguientes términos:
-- Atribución: Debe dar crédito adecuado, proporcionar un enlace a la licencia, 
-  e indicar si se realizaron cambios. Puede hacerlo de cualquier manera razonable, 
-  pero no de manera que sugiera que el licenciante lo respalda a usted o su uso.
-- NoComercial: No puede utilizar el material con fines comerciales.
+Esta obra, incluyendo el código fuente, los datos, los modelos y el manuscrito asociado, se distribuye bajo los términos de la licencia **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
 
-Avisos adicionales:
-- Este proyecto incluye modelos computacionales registrados en el Registro de 
-  Propiedad Intelectual (RPI) con número [INSERTAR Nº DE ASIENTO]. 
-  La licencia no otorga derechos sobre patentes o usos comerciales registrados.
-- Para solicitudes de uso comercial (licencia dual), contacte a: 
-  [tu-email]@protonmail.com.
+Para ver una copia completa y legalmente vinculante de esta licencia, visite:
+[https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
 
-EXENCIÓN DE RESPONSABILIDAD:
-- El licenciante no garantiza la exactitud científica del material ni su idoneidad 
-  para ningún propósito específico. El uso es bajo su propio riesgo.
-- Los datos de validación computacional (ej: modelos AlphaFold) se proporcionan 
-  "tal cual" sin garantía de correlación con resultados experimentales.
+### Resumen de los Términos y Condiciones (No Sustituye a la Licencia Completa)
+
+**Usted es libre de:**
+
+* **Compartir** — copiar y redistribuir el material en cualquier medio o formato.
+* **Adaptar** — remezclar, transformar y construir sobre el material.
+
+**Bajo las siguientes condiciones:**
+
+* **Atribución:** Debe dar crédito adecuado al autor (Nacho Peinador Sala), proporcionar un enlace a la licencia CC BY-NC 4.0 e indicar si se realizaron cambios. No puede hacerlo de una manera que sugiera que el autor respalda su uso particular.
+* **NoComercial:** No puede utilizar el material para fines comerciales.
+
+---
+
+## 2. Avisos y Condiciones Adicionales
+
+### Registro de Propiedad Intelectual (RPI)
+
+* Se informa que esta obra, incluyendo su metodología de diseño ("Método PIA") y los resultados específicos, ha sido registrada en el Registro de la Propiedad Intelectual de España con el número de asiento registral: **[INSERTAR AQUÍ EL NÚMERO DE ASIENTO REGISTRAL CUANDO LO TENGAS]**.
+* La licencia CC BY-NC 4.0 no afecta ni otorga derechos sobre las patentes o los usos comerciales que puedan derivarse de esta propiedad intelectual registrada.
+
+### Licencia Dual para Uso Comercial
+
+* Cualquier uso del material con fines comerciales está estrictamente prohibido bajo la licencia CC BY-NC 4.0.
+* Para consultas sobre licencias comerciales o cualquier uso no permitido por la licencia principal, por favor, contacte con el autor en la siguiente dirección de correo electrónico: **[tu-email]@protonmail.com**.
+
+---
+
+## 3. Exención de Responsabilidad (Disclaimer)
+
+* **SIN GARANTÍAS:** El material se proporciona "tal cual", sin garantías de ningún tipo, expresas o implícitas. El autor no garantiza la exactitud científica del material, su idoneidad para un propósito específico, ni su correlación con resultados experimentales. El uso de este material es bajo su propio y exclusivo riesgo.
+* **LIMITACIÓN DE RESPONSABILIDAD:** En ningún caso el autor será responsable de ninguna reclamación, daño u otra responsabilidad, ya sea en una acción de contrato, agravio o de otro tipo, que surja de, fuera de o en conexión con la obra o el uso u otras operaciones en la obra.
