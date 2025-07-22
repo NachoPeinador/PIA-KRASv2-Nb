@@ -51,14 +51,17 @@ EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYAMSWVRQAPGKGLEWVSSISSSSSYIYYADSVKGRFTISRDNSKNTLY
 >KRAS_epitope_DEYDPTIEDS
 DEYDPTIEDS
 ```
+
 ---
 
 ## 📈 Resultados Principales
-Parámetro	Valor	Herramienta
-ipTM (Confianza Unión)	0.78	AlphaFold-Multimer v3 (Seed 72)
-pTM (Estructura Global)	0.92	AlphaFold-Multimer v3
-Humanización (Familia)	✅ 1.0	Hu-mAb (Familia Humana VH3)
-RMSD (Estabilidad CDR3)	0.19 Å	NanoBodyBuilder2
+
+| Parámetro                | Valor      | Herramienta                     |
+| :----------------------- | :--------- | :------------------------------ |
+| ipTM (Confianza Unión)   | **0.78** | AlphaFold-Multimer v3 (Seed 72) |
+| pTM (Estructura Global)  | **0.92** | AlphaFold-Multimer v3           |
+| Humanización (Familia)   | ✅ **1.0** | Hu-mAb (Familia Humana VH3)     |
+| RMSD (Estabilidad CDR3)  | **0.19 Å** | NanoBodyBuilder2                |
 
 ---
 
