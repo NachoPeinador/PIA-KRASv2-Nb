@@ -66,11 +66,12 @@ DEYDPTIEDS
 ---
 
 ## 🧪 Aplicaciones Propuestas
-Terapia Dirigida: Inhibición directa y pan-mutante de la señalización de KRAS.
 
-Diagnóstico Molecular: Desarrollo de biosensores epítopo-específicos de alta afinidad.
+**Terapia Dirigida:** Inhibición directa y pan-mutante de la señalización de KRAS.
 
-Ingeniería de Proteínas: Como base para formatos bivalentes o conjugados anticuerpo-fármaco (ADC).
+**Diagnóstico Molecular:** Desarrollo de biosensores epítopo-específicos de alta afinidad.
+
+**Ingeniería de Proteínas:** Como base para formatos bivalentes o conjugados anticuerpo-fármaco (ADC).
 
 ---
 
