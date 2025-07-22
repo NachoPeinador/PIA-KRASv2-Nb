@@ -41,14 +41,16 @@ Diseñar un **nanobody 100% humanizado, estable y específico** que reconozca un
 ## 📌 Secuencias Clave
 
 ### Nanobody PIA-KRASv2-Nb (FASTA)
+```fasta
 >PIA-KRASv2-Nb_Original_Sequence
 EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYAMSWVRQAPGKGLEWVSSISSSSSYIYY
 ADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARDYYYGMDVWGQGTTVTVSSDIQ
-
+```fasta
 ### Epítopo Objetivo (KRAS res. 23-32)
 >KRAS_epitope_DEYDPTIEDS
 DEYDPTIEDS
 
+---
 
 ## 📈 Resultados Principales
 Parámetro	Valor	Herramienta
@@ -57,6 +59,7 @@ pTM (Estructura Global)	0.92	AlphaFold-Multimer v3
 Humanización (Familia)	✅ 1.0	Hu-mAb (Familia Humana VH3)
 RMSD (Estabilidad CDR3)	0.19 Å	NanoBodyBuilder2
 
+---
 
 ## 🧪 Aplicaciones Propuestas
 Terapia Dirigida: Inhibición directa y pan-mutante de la señalización de KRAS.
@@ -65,10 +68,14 @@ Diagnóstico Molecular: Desarrollo de biosensores epítopo-específicos de alta 
 
 Ingeniería de Proteínas: Como base para formatos bivalentes o conjugados anticuerpo-fármaco (ADC).
 
+---
+
 ## 🤝 Contacto y Colaboración
 Este proyecto está abierto a la validación experimental. Si trabajas en inmunoterapia, biología estructural o ensayos celulares y tienes interés en colaborar en este proyecto, puedes contactar con el autor:
 
 ## [📧 Nacho Peinador](mailto:joseignacio.peinador@gmail.com)
+
+---
 
 ## 📄 Licencia
 Este proyecto está licenciado bajo la Creative Commons Attribution-NonCommercial 4.0 International.
