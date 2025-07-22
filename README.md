@@ -2,7 +2,7 @@
 
 Este repositorio documenta el diseño y validación in silico del nanobody PIA-KRASv2-Nb, una molécula terapéutica dirigida contra el epítopo accesible `DEYDPTIEDS` de la proteína KRAS. Combina herramientas estructurales, predicciones de inmunogenicidad y análisis biofísicos para justificar su potencial en inmunoterapia y diagnóstico molecular.
 
-![Modelo 3D PIA-KRASv2Nb](/PIA-KRASv2Nb_modelo72.png)
+![Modelo 3D PIA-KRASv2Nb](/PIAvsKRAS_s72.png)
 
 > 📌 *La imagen anterior corresponde al modelo estructural más confiable generado con AlphaFold-Multimer v3 utilizando la semilla 72, que arrojó una puntuación de ipTM = 0.78 y pTM = 0.92.*
 
