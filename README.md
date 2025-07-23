@@ -32,7 +32,7 @@ Diseñar un **nanobody 100% humanizado, estable y específico** que reconozca un
 
 ## 📂 Contenido del Repositorio
 
-- **`PIA_KRASv2-Nb_Report.pdf`**: Artículo científico completo con la descripción del método PIA, los resultados y la validación *in silico* detallada.
+- **`PIA_KRASv2-Nb.pdf`**: Artículo científico completo con la descripción del método PIA, los resultados y la validación *in silico* detallada.
 - **`AlphaFold_models/`**: Estructuras 3D en formato `.cif` de las semillas de élite (72, 13 y 10).
 - **`LICENSE.md`**: Licencia detallada del proyecto.
 
