@@ -1,46 +1,46 @@
-# Licencia del Proyecto PIA-KRASv2-Nb
+# License for the PIA-KRASv2-Nb Project
 
-**Título de la Obra:** PIA-KRASv2-Nb - Diseño computacional de un nanocuerpo anti-KRAS
-**Autor y Titular de los Derechos:** © 2025 Nacho Peinador Sala
+**Title of the Work:** PIA-KRASv2-Nb - Computational Design of an Anti-KRAS Nanobody
+**Author and Copyright Holder:** © 2025 Nacho Peinador Sala
 
 ---
 
-## 1. Licencia Principal
+## 1. Main License
 
-Esta obra, incluyendo el código fuente, los datos, los modelos y el manuscrito asociado, se distribuye bajo los términos de la licencia **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)**.
+This work, including the source code, data, models, and associated manuscript, is distributed under the terms of the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
 
-Para ver una copia completa y legalmente vinculante de esta licencia, visite:
+To view a full and legally binding copy of this license, please visit:
 [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
 
-### Resumen de los Términos y Condiciones (No Sustituye a la Licencia Completa)
+### Summary of Terms and Conditions (Does Not Replace the Full License)
 
-**Usted es libre de:**
+**You are free to:**
 
-* **Compartir** — copiar y redistribuir el material en cualquier medio o formato.
-* **Adaptar** — remezclar, transformar y construir sobre el material.
+* **Share** — copy and redistribute the material in any medium or format.
+* **Adapt** — remix, transform, and build upon the material.
 
-**Bajo las siguientes condiciones:**
+**Under the following terms:**
 
-* **Atribución:** Debe dar crédito adecuado al autor (Nacho Peinador Sala), proporcionar un enlace a la licencia CC BY-NC 4.0 e indicar si se realizaron cambios. No puede hacerlo de una manera que sugiera que el autor respalda su uso particular.
-* **NoComercial:** No puede utilizar el material para fines comerciales.
-
----
-
-## 2. Avisos y Condiciones Adicionales
-
-### Registro de Propiedad Intelectual (RPI)
-
-* Se informa que esta obra, incluyendo su metodología de diseño ("Método PIA") y los resultados específicos, ha sido registrada en el Registro de la Propiedad Intelectual de España con el número de asiento registral: *Expediente de solicitud 00765-02731506 (pendiente de resolución).
-* La licencia CC BY-NC 4.0 no afecta ni otorga derechos sobre las patentes o los usos comerciales que puedan derivarse de esta propiedad intelectual registrada.
-
-### Licencia Dual para Uso Comercial
-
-* Cualquier uso del material con fines comerciales está estrictamente prohibido bajo la licencia CC BY-NC 4.0.
-* Para consultas sobre licencias comerciales o cualquier uso no permitido por la licencia principal, por favor, contacte con el autor en la siguiente dirección de correo electrónico: joseignacio.peinador@gmail.com.
+* **Attribution:** You must give appropriate credit to the author (Nacho Peinador Sala), provide a link to the CC BY-NC 4.0 license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+* **NonCommercial:** You may not use the material for commercial purposes.
 
 ---
 
-## 3. Exención de Responsabilidad (Disclaimer)
+## 2. Additional Notices and Conditions
 
-* **SIN GARANTÍAS:** El material se proporciona "tal cual", sin garantías de ningún tipo, expresas o implícitas. El autor no garantiza la exactitud científica del material, su idoneidad para un propósito específico, ni su correlación con resultados experimentales. El uso de este material es bajo su propio y exclusivo riesgo.
-* **LIMITACIÓN DE RESPONSABILIDAD:** En ningún caso el autor será responsable de ninguna reclamación, daño u otra responsabilidad, ya sea en una acción de contrato, agravio o de otro tipo, que surja de, fuera de o en conexión con la obra o el uso u otras operaciones en la obra.
+### Intellectual Property Registry (RPI)
+
+* This work, including its design methodology ("PIA Method") and specific results, has been registered with the Spanish Intellectual Property Registry with the application file number: **Application file 00765-02731506 (pending resolution)**.
+* The CC BY-NC 4.0 license does not affect nor grant any rights to patents or commercial uses that may arise from this registered intellectual property.
+
+### Dual Licensing for Commercial Use
+
+* Any use of the material for commercial purposes is strictly prohibited under the CC BY-NC 4.0 license.
+* For inquiries about commercial licenses or any use not permitted by the main license, please contact the author at the following email address: **joseignacio.peinador@gmail.com**.
+
+---
+
+## 3. Disclaimer
+
+* **NO WARRANTIES:** The material is provided "as is," without warranties of any kind, express or implied. The author does not guarantee the scientific accuracy of the material, its suitability for any specific purpose, or its correlation with experimental results. Use of this material is at your own exclusive risk.
+* **LIMITATION OF LIABILITY:** In no event shall the author be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the work or the use or other dealings in the work.
