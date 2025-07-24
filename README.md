@@ -1,27 +1,27 @@
-# 🧬 PIA-KRASv2-Nb: Nanobody de Alta Afinidad contra KRAS
+# 🧬 PIA-KRASv2-Nb: A High-Affinity Nanobody against KRAS
 
-![Licencia](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)
+![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)
 ![ipTM](https://img.shields.io/badge/ipTM-0.78-blue)
 ![pTM](https://img.shields.io/badge/pTM-0.92-blue)
 
-Este repositorio documenta el diseño y la validación *in silico* del nanobody **PIA-KRASv2-Nb**, una molécula terapéutica dirigida contra el epítopo accesible `DEYDPTIEDS` de la oncoproteína KRAS.
+This repository documents the *in silico* design and validation of the **PIA-KRASv2-Nb** nanobody, a therapeutic molecule targeting the accessible `DEYDPTIEDS` epitope of the KRAS oncoprotein.
 
-![Modelo 3D de PIA-KRASv2-Nb (Semilla 72)](./PIAvsKRAS_s72.png)
+![3D Model of PIA-KRASv2-Nb (Seed 72)](./PIAvsKRAS_s72.png)
 
-> 📌 *Modelo estructural generado con AlphaFold-Multimer v3 (semilla 72), que arrojó una puntuación de **ipTM = 0.78** y **pTM = 0.92**.*
-
----
-
-## 🔍 Objetivo
-
-Diseñar un **nanobody 100% humanizado, estable y específico** que reconozca un epítopo funcionalmente crítico de KRAS con alta afinidad, con el fin de proponerlo como un candidato viable para inmunoterapia y diagnóstico molecular.
+> 📌 *Structural model generated with AlphaFold-Multimer v3 (seed 72), which yielded an **ipTM score of 0.78** and a **pTM score of 0.92**.*
 
 ---
 
-## 🔧 Herramientas Utilizadas
+## 🔍 Objective
+
+To design a **100% humanized, stable, and specific nanobody** that recognizes a functionally critical epitope of KRAS with high affinity, proposing it as a viable candidate for immunotherapy and molecular diagnostics.
+
+---
+
+## 🔧 Tools Used
 
 - [AlphaFold-Multimer v3](https://alphafoldserver.com/)
-- Herramientas del SAbPred server (Oxford Protein Informatics Group):
+- Tools from the SAbPred server (Oxford Protein Informatics Group):
   - [Therapeutic Antibody Profiler (TAP)](https://opig.stats.ox.ac.uk/webapps/sabdab-sabpred/sabpred/tap)
   - [ANARCI](https://opig.stats.ox.ac.uk/webapps/sabdab-sabpred/sabpred/anarci)
   - [SCALOP](https://opig.stats.ox.ac.uk/webapps/sabdab-sabpred/sabpred/scalop)
@@ -30,18 +30,18 @@ Diseñar un **nanobody 100% humanizado, estable y específico** que reconozca un
 
 ---
 
-## 📂 Contenido del Repositorio
+## 📂 Repository Contents
 
-- **`PIA_KRASv2-Nb_Report_ENG.pdf`**: Scientific report in English.
-- **`PIA_KRASv2-Nb_Report_ESP.pdf`**: Artículo científico en Español.
-- **`AlphaFold_models/`**: 3D structures of elite seeds.
+- **`PIA-KRASv2-Nb_Report_ENG.pdf`**: Full scientific report in English (once available).
+- **`PIA-KRASv2-Nb_Report_ESP.pdf`**: Full scientific report in Spanish.
+- **`AlphaFold_models/`**: 3D structures of the elite seeds.
 - **`LICENSE.md`**: Detailed project license (CC BY-NC 4.0).
-  
+
 ---
 
-## 📌 Secuencias Clave
+## 📌 Key Sequences
 
-### Nanobody PIA-KRASv2-Nb (FASTA)
+### PIA-KRASv2-Nb Nanobody (FASTA)
 ```
 >PIA-KRASv2-Nb_Original_Sequence
 EVQLVESGGGLVQPGGSLRLSCAASGFTFSSYAMSWVRQAPGKGLEWVSSISSSSSYIYYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARDYYYGMDVWGQGTTVTVSSDIQ
@@ -54,35 +54,35 @@ DEYDPTIEDS
 
 ---
 
-## 📈 Resultados Principales
+📈 Key Results
 
-| Parámetro                | Valor      | Herramienta                     |
-| :----------------------- | :--------- | :------------------------------ |
-| ipTM (Confianza Unión)   | **0.78** | AlphaFold-Multimer v3 (Seed 72) |
-| pTM (Estructura Global)  | **0.92** | AlphaFold-Multimer v3           |
-| Humanización (Familia)   | ✅ **1.0** | Hu-mAb (Familia Humana VH3)     |
-| RMSD (Estabilidad CDR3)  | **0.19 Å** | NanoBodyBuilder2                |
-
----
-
-## 🧪 Aplicaciones Propuestas
-
-**Terapia Dirigida:** Inhibición directa y pan-mutante de la señalización de KRAS.
-
-**Diagnóstico Molecular:** Desarrollo de biosensores epítopo-específicos de alta afinidad.
-
-**Ingeniería de Proteínas:** Como base para formatos bivalentes o conjugados anticuerpo-fármaco (ADC).
+| Parameter                   | Value      | Tool                            |
+| :-----------------------    | :--------- | :------------------------------ |
+| ipTM (Binding Confidence)   | **0.78**   | AlphaFold-Multimer v3 (Seed 72) |
+| pTM (Global Structure)      | **0.92**   | AlphaFold-Multimer v3           |
+| Humanization (Family)       | ✅ **1.0** | Hu-mAb (Human VH3 Family)       |
+| RMSD (CDR3 Stability)       | **0.19 Å** | NanoBodyBuilder2                |
 
 ---
 
-## 🤝 Contacto y Colaboración
-Este proyecto está abierto a la validación experimental. Si trabajas en inmunoterapia, biología estructural o ensayos celulares y tienes interés en colaborar en este proyecto, puedes contactar con el autor:
+## 🧪 Proposed Applications
+
+**Targeted Therapy:** Direct and pan-mutant inhibition of KRAS signaling.
+
+**Molecular Diagnostics:** Development of high-affinity, epitope-specific biosensors.
+
+**Protein Engineering:** As a scaffold for bivalent formats or antibody-drug conjugates (ADCs).
+
+---
+
+## 🤝 Contact & Collaboration
+This project is open to experimental validation. If you work in immunotherapy, structural biology, or cellular assays and are interested in collaborating, please contact the author:
 
 ## [📧 Nacho Peinador](mailto:joseignacio.peinador@gmail.com)
 
 ---
 
-## 📄 Licencia
-Este proyecto está licenciado bajo la Creative Commons Attribution-NonCommercial 4.0 International.
+## 📄 License
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International.
 
-Este trabajo ha sido registrado en el Registro de la Propiedad Intelectual de España para establecer una prueba fehaciente de autoría y fecha de creación. Por favor, consulta el archivo LICENSE.md para ver los términos completos, incluyendo las condiciones para licencias comerciales.
+This work has been registered with the Spanish Intellectual Property Registry (RPI) to establish a verifiable proof of authorship and creation date. Please see the LICENSE.md file for the full terms, including conditions for commercial licensing.
