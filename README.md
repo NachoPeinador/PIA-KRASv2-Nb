@@ -32,10 +32,10 @@ To design a **100% humanized, stable, and specific nanobody** that recognizes a 
 
 ## 📂 Repository Contents
 
-- **`PIA-KRASv2-Nb_Report_ENG.pdf`**: Full scientific report in English (once available).
-- **`PIA-KRASv2-Nb_Report_ESP.pdf`**: Full scientific report in Spanish.
-- **`AlphaFold_models/`**: 3D structures of the elite seeds.
-- **`LICENSE.md`**: Detailed project license (CC BY-NC 4.0).
+- 🇬🇧 [**`PIA-KRASv2-Nb_Report_ENG.pdf`**](./PIA-KRASv2-Nb_Report_ENG.pdf): Full scientific report in English.
+- 🇪🇸 [**`PIA-KRASv2-Nb_Report_ESP.pdf`**](./PIA-KRASv2-Nb_Report_ESP.pdf): Full scientific report in Spanish.
+- 📁 [**`AlphaFold_models/`**](./AlphaFold_models/): 3D structures of the elite seeds (`.cif` format).
+- ⚖️ [**`LICENSE.md`**](./LICENSE.md): Detailed project license (CC BY-NC 4.0).
 
 ---
 
