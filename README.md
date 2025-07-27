@@ -7,10 +7,35 @@
 This repository documents the *in silico* design and validation of the **PIA-KRASv2-Nb** nanobody, a therapeutic molecule targeting the accessible `DEYDPTIEDS` epitope of the KRAS oncoprotein.
 
 ![3D Model of PIA-KRASv2-Nb (Seed 72)](./AlphaFold_images/PIAvsKRAS_s72.png)
-![Central cluster (Seed 72)](./AlphaFold_images/Cluster_central_7residuos.png)
+
 > 📌 *Structural model generated with AlphaFold-Multimer v3 (seed 72), which yielded an **ipTM score of 0.78** and a **pTM score of 0.92**.*
 
 ---
+
+
+## 🔬 Key Structural Insights
+
+### 🎯 **Epitope Recognition Mechanism**
+The nanobody establishes **34 interfacial contacts** (<4Å) with KRAS, organized into three functional clusters:
+
+1. **Polar Core**  
+   - 5 strong SER→GLU24 interactions (2.20-3.66Å)  
+   - Anchored by SER54-GLU24 (2.20Å, shortest bond)
+
+2. **Aromatic Network**  
+   - TYR100-THR28 stacking (2.08Å OH-π)  
+   - TYR57-ASP23 anion-π interaction (2.63Å)
+
+3. **Hydrophobic Contacts**  
+   - TRP47-ASP31 (2.61Å)  
+   - ILE51-PRO27 (3.71Å)
+
+![Central Interaction Cluster](./AlphaFold_images/Cluster_central_7residuos.png)
+*Central polar cluster with 7 coordinated interactions*
+
+---
+
+
 
 ## 🔍 Objective
 
@@ -27,6 +52,11 @@ To design a **100% humanized, stable, and specific nanobody** that recognizes a 
   - [SCALOP](https://opig.stats.ox.ac.uk/webapps/sabdab-sabpred/sabpred/scalop)
   - [NanoBodyBuilder2](https://opig.stats.ox.ac.uk/webapps/sabdab-sabpred/sabpred/nanobodybuilder2)
   - [Hu-mAb (Humanization Classifier)](https://opig.stats.ox.ac.uk/webapps/sabdab-sabpred/sabpred/humab)
+
+### Interactive Validation
+Explore the interaction analysis in our Colab notebook:  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qyyJtn2fAQABQcl6zN6a3IkVf89yknDh?usp=sharing)  
+*(Generates detailed contact maps and CSV exports)*
 
 ---
 
