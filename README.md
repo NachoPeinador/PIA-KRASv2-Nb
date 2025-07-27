@@ -6,9 +6,7 @@
 
 This repository documents the *in silico* design and validation of the **PIA-KRASv2-Nb** nanobody, a therapeutic molecule targeting the accessible `DEYDPTIEDS` epitope of the KRAS oncoprotein.
 
-![3D Model of PIA-KRASv2-Nb (Seed 72)](./AlphaFold_images/PIAvsKRAS_s72.png)
-![Central Polar Cluster: Centered on GLU24 with 7 interactions from SER52-
-SER56 (2.20-3.66 Å)](./AlphaFold_images/2HBSER56GLU2.png)
+![3D Model of PIA-KRASv2-Nb (Seed 72) - Central Polar Cluster](./AlphaFold_images/PIAvsKRAS_s72.png) ![](./AlphaFold_images/2HBSER56GLU2.png)
 
 > 📌 *Structural model generated with AlphaFold-Multimer v3 (seed 72), which yielded an **ipTM score of 0.78** and a **pTM score of 0.92**.*
 
