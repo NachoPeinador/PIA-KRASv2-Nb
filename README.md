@@ -61,23 +61,12 @@ Explore the interaction analysis in our Colab notebook:
 ---
 
 ## 📂 Repository Contents
-PIA-KRASv2-Nb/
-├── AlphaFold_models/ # 3D structures (.cif)
-├── Interactions/ # Contact analysis files
-│ ├── contact_maps/ # Visualizations
-│ └── interface_analysis/ # CSV datasets
-├── Reports/
-│ ├── PIA-KRASv2-Nb_Report_ENG.pdf
-│ └── PIA-KRASv2-Nb_Report_ESP.pdf
-└── Validation_Colab.ipynb # Interactive analysis
-
-
-
 - 🇬🇧 [**`PIA-KRASv2-Nb_Report_ENG.pdf`**](./PIA-KRASv2-Nb_Report_ENG.pdf): Full scientific report in English.
 - 🇪🇸 [**`PIA-KRASv2-Nb_Report_ESP.pdf`**](./PIA-KRASv2-Nb_Report_ESP.pdf): Full scientific report in Spanish.
 - 📁 [**`AlphaFold_models/`**](./AlphaFold_models/): 3D structures of the elite seeds (`.cif` format).
 - ⚖️ [**`LICENSE.md`**](./LICENSE.md): Detailed project license (CC BY-NC 4.0).
-- 
+- 📁 [**`AlphaFold_images/`**](./AlphaFold_images/): images of the Structural model and Central polar cluster.
+- 📁 [**`Interactions/`**](./Interactions/): Validation_Colab.ipynb # Interactive analysis
 
 ---
 
