@@ -4,6 +4,7 @@
 ![ipTM](https://img.shields.io/badge/ipTM-0.78-blue)
 ![pTM](https://img.shields.io/badge/pTM-0.92-blue)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16578455.svg)](https://doi.org/10.5281/zenodo.16578455)
+[![Platform](https://img.shields.io/badge/Preprint-Research_Square-brightgreen)](https://www.researchsquare.com/article/rs-7239936/v1) 
 <a href="https://explore.openaire.eu/search/publication?pid=10.5281%2Fzenodo.16578455">  
   <img src="https://img.shields.io/badge/OpenAIRE-Indexed-blue" alt="OpenAIRE Indexed">  
 </a> 
@@ -21,10 +22,9 @@ This repository documents the *in silico* design and validation of the **PIA-KRA
 
 This project has been officially published as a preprint on **Zenodo** & **Research Square**. It is now a citable and permanent part of the scientific record.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16578455.svg)](https://doi.org/10.5281/zenodo.16578455)
 [![DOI](https://img.shields.io/badge/DOI-10.21203/rs.3.rs--7239936/v1-blue)](https://doi.org/10.21203/rs.3.rs-7239936/v1)  
 [![Platform](https://img.shields.io/badge/Preprint-Research_Square-brightgreen)](https://www.researchsquare.com/article/rs-7239936/v1)  
-[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC_BY--NC_4.0-lightgrey)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 
 **Access the official publication here:
 [https://doi.org/10.5281/zenodo.16578455](https://doi.org/10.5281/zenodo.16578455)
