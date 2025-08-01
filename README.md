@@ -18,19 +18,6 @@ This repository documents the *in silico* design and validation of the **PIA-KRA
 
 ---
 
-### 📣 **WORK PUBLISHED AS A PREPRINT!** 📣
-
-This project has been officially published as a preprint on **Zenodo** & **Research Square**. It is now a citable and permanent part of the scientific record.
-
-[![DOI](https://img.shields.io/badge/DOI-10.21203/rs.3.rs--7239936/v1-blue)](https://doi.org/10.21203/rs.3.rs-7239936/v1)  
-[![Platform](https://img.shields.io/badge/Preprint-Research_Square-brightgreen)](https://www.researchsquare.com/article/rs-7239936/v1)  
-
-
-**Access the official publication here:
-[https://doi.org/10.5281/zenodo.16578455](https://doi.org/10.5281/zenodo.16578455)
-[https://doi.org/10.21203/rs.3.rs-7239936/v1](https://doi.org/10.21203/rs.3.rs-7239936/v1)**
-
-
 ---
 
 
