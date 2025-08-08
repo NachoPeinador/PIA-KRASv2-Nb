@@ -7,7 +7,8 @@
 [![Platform](https://img.shields.io/badge/Preprint-Research_Square-brightgreen)](https://www.researchsquare.com/article/rs-7239936/v1) 
 <a href="https://explore.openaire.eu/search/publication?pid=10.5281%2Fzenodo.16578455">  
   <img src="https://img.shields.io/badge/OpenAIRE-Indexed-blue" alt="OpenAIRE Indexed">  
-</a> 
+</a>
+[![Zenodo Metrics](https://img.shields.io/badge/Zenodo-124_downloads_(1st_week)-blue)](https://doi.org/10.5281/zenodo.16578455)
 
 
 This repository documents the *in silico* design and validation of the **PIA-KRASv2-Nb** nanobody, a therapeutic molecule targeting the accessible `DEYDPTIEDS` epitope of the KRAS oncoprotein.
