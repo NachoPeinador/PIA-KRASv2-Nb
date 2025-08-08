@@ -6,7 +6,7 @@
 
 ![ipTM](https://img.shields.io/badge/ipTM-0.78-blue)
 ![pTM](https://img.shields.io/badge/pTM-0.92-blue)
-[![Zenodo Metrics](https://img.shields.io/badge/Zenodo-124_downloads_(1st_week)-bkue)](https://doi.org/10.5281/zenodo.16578455)
+[![Zenodo Metrics](https://img.shields.io/badge/Zenodo-124_downloads_(1st_week)-blue)](https://doi.org/10.5281/zenodo.16578455)
 [![Platform](https://img.shields.io/badge/Preprint-Research_Square-blue)](https://www.researchsquare.com/article/rs-7239936/v1) 
 ![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)
 
