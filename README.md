@@ -3,11 +3,12 @@
 ![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)
 ![ipTM](https://img.shields.io/badge/ipTM-0.78-blue)
 ![pTM](https://img.shields.io/badge/pTM-0.92-blue)
-[![Zenodo Metrics](https://img.shields.io/badge/Zenodo-124_downloads_(1st_week)-blue)](https://doi.org/10.5281/zenodo.16578455)
-[![Platform](https://img.shields.io/badge/Preprint-Research_Square-brightgreen)](https://www.researchsquare.com/article/rs-7239936/v1) 
+[![Zenodo Metrics](https://img.shields.io/badge/Zenodo-124_downloads_(1st_week)-green)](https://doi.org/10.5281/zenodo.16578455)
 <a href="https://explore.openaire.eu/search/publication?pid=10.5281%2Fzenodo.16578455">  
-  <img src="https://img.shields.io/badge/OpenAIRE-Indexed-blue" alt="OpenAIRE Indexed">  
+  <img src="https://img.shields.io/badge/OpenAIRE-Indexed-green" alt="OpenAIRE Indexed">  
 </a>
+[![Platform](https://img.shields.io/badge/Preprint-Research_Square-brightgreen)](https://www.researchsquare.com/article/rs-7239936/v1) 
+
 
 
 
