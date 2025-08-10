@@ -1,6 +1,6 @@
 # Notebook de Análisis PIA-KRASv2-Nb
 
-Este directorio contiene el notebook de Google Colab para el análisis de PIA-KRASv2-Nb.
+Este directorio contiene el notebook de Google Colab para el análisis de INTERACCIONES PIA-KRASv2-Nb.
 
 Para abrir y ejecutar este notebook directamente en Google Colab, haz clic en el siguiente botón:
 
