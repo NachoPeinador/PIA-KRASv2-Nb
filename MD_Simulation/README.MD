@@ -4,7 +4,7 @@ Este directorio contiene el notebook de Google Colab para el análisis de INTERA
 
 Para abrir y ejecutar este notebook directamente en Google Colab, haz clic en el siguiente botón:
 
-[![Open In Colab](https://colab.research.google.com/drive/16FlafUaOaEpy7yyycTcx1F0liDf6xYOD?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/github/NachoPeinador/PIA-KRASv2-Nb/blob/main/MD_Simulation/MD_simulation.ipynb)
 
 ---
 
