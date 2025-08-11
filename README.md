@@ -80,6 +80,7 @@ The nanobody establishes **34 interfacial contacts** (<4Å) with KRAS, organized
 This project is open to experimental validation. If you work in immunotherapy, structural biology, or cellular assays and are interested in collaborating, please contact the author:
 
 ### [📧 Nacho Peinador](mailto:joseignacio.peinador@gmail.com)
+**ORCID:** [https://orcid.org/0009-0008-1822-3452](https://orcid.org/0009-0008-1822-3452)
 
 ---
 
