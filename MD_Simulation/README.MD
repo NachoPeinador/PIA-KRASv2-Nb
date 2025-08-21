@@ -1,46 +1,52 @@
-# Simulación de Dinámica Molecular del Complejo PIA-KRASv2-Nb
+🧬 Pipeline de Simulación y Análisis MD para PIA-KRASv2-Nb
+Bienvenido al repositorio del pipeline computacional completo para la validación del nanocuerpo PIA-KRASv2-Nb. Este proyecto proporciona dos notebooks de Google Colab interconectados que permiten llevar una estructura estática (generada por AlphaFold) a través de una simulación de dinámica molecular (MD) y un análisis cuantitativo detallado.
 
-Este notebook de Google Colab proporciona el código y el flujo de trabajo completo para realizar una simulación de dinámica molecular (DM) del complejo formado por el nanocuerpo **PIA-KRASv2-Nb** y el epítopo Switch I de la oncoproteína KRAS.
+👉 El objetivo es ofrecer una metodología in silico robusta y reproducible para evaluar la estabilidad de complejos proteína-proteína antes de la validación experimental.
 
-El notebook permite replicar la validación dinámica presentada en el artículo científico asociado, partiendo de un archivo de estructura `.cif` generado por AlphaFold 3.
+🚀 Abrir directamente en Google Colab
+Haz clic en los botones para ejecutar los notebooks de inmediato en un entorno Colab. Deben ejecutarse en orden: primero la simulación, y luego el análisis con los archivos generados.
 
----
+Paso 1: Simulación de Dinámica Molecular
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1W2FtbyPI9uDkZCDqqdFkd6nVQfMoj_Kj?usp=sharing)
 
-### Abrir en Google Colab
+Paso 2: Análisis de la Trayectoria
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Aue7oYHIFAmSe5xPwzyUB-HXJ6NgqNVb?usp=sharing)
 
-Para abrir y ejecutar este notebook directamente en tu navegador, haz clic en el siguiente botón:
+📂 Contenido de los Notebooks
+1. ⚛️ Notebook de Simulación (MD_SIMULATION.ipynb)
+Este cuaderno prepara y ejecuta una simulación de dinámica molecular de 10 nanosegundos del complejo proteico usando OpenMM.
 
-[![Abrir en Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/16FlafUaOaEpy7yyycTcx1F0liDf6xYOD?usp=sharing)
+Instalación y Preparación: Instala todas las dependencias (OpenMM, PDBFixer, etc.) y prepara el sistema añadiendo solvente (agua), iones y aplicando el campo de fuerza Amber14.
 
----
+Ejecución de la Simulación: Realiza la minimización de energía, el equilibrado y la simulación de producción.
 
-### Contenido y Flujo de Trabajo
+Resultados Generados: Produce los dos archivos esenciales para el análisis: protein_system_CORRECTED.pdb (topología) y trajectory.dcd (trayectoria).
 
-El notebook está diseñado para ser ejecutado secuencialmente, celda por celda, y guía al usuario a través de los siguientes pasos cruciales:
+2. 🧪 Notebook de Análisis (MD_ANALYSIS.ipynb)
+Este cuaderno toma los resultados de la simulación y realiza un análisis cuantitativo de la estabilidad del complejo usando MDTraj.
 
-1.  **Configuración del Entorno:**
-    *   Instalación de todas las librerías necesarias, incluyendo `OpenMM` para la simulación y `MDTraj` para el análisis.
-    *   **¡Importante!** Se debe seleccionar un entorno de ejecución con **aceleración por GPU** (Hardware accelerator: T4 GPU) para que la simulación se complete en un tiempo razonable.
+Carga de Datos: Permite subir los archivos pdb y dcd generados en el paso anterior.
 
-2.  **Carga y Preparación de la Estructura:**
-    *   Carga del archivo `.cif` del complejo predicho por AlphaFold 3.
-    *   Conversión automática del archivo `.cif` a formato `.pdb` utilizando la librería BioPython.
+Análisis de Estabilidad (RMSD): Calcula y grafica el Desplazamiento Cuadrático Medio del armazón y de los CDRs para evaluar la estabilidad conformacional.
 
-3.  **Preparación del Sistema para la Simulación:**
-    *   Adición de átomos de hidrógeno faltantes.
-    *   Creación de una caja de simulación y solvatación con un modelo de agua explícito (TIP3P).
-    *   Neutralización del sistema mediante la adición de iones (Na+/Cl-).
+Análisis de Interfaz (Contactos): Cuantifica el número de pares de residuos en contacto (<4 Å) entre el nanocuerpo y KRAS a lo largo del tiempo.
 
-4.  **Ejecución de la Simulación de Dinámica Molecular:**
-    *   **Minimización de energía** para relajar la estructura.
-    *   **Equilibrado** del sistema a 300 K.
-    *   **Simulación de producción** de 500 picosegundos para generar la trayectoria.
+Análisis Estadístico: Aplica una regresión lineal para determinar si la tendencia en los contactos de la interfaz es estadísticamente significativa (p-valor).
 
-5.  **Análisis de Resultados:**
-    *   Cálculo de la **Desviación Cuadrática Media (RMSD)** a lo largo del tiempo para evaluar la estabilidad del complejo.
-    *   Generación de un gráfico de alta calidad que muestra el RMSD del nanocuerpo en relación con KRAS.
+📊 Resultados Esperados del Pipeline Completo
+Archivos de Trayectoria: Un archivo trajectory.dcd de 10 ns.
 
-### Requisitos
+Datos Cuantitativos: Archivos .csv con los valores de RMSD y número de contactos por cada fotograma de la simulación.
 
-*   Una cuenta de Google para poder ejecutar el notebook en Colab.
-*   El archivo `.cif` de la estructura del complejo que se desea simular.
+Gráficos para Publicación: Gráficos de alta calidad mostrando la evolución del RMSD y de los contactos en la interfaz.
+
+Validación Estadística: Un análisis claro (pendiente, p-valor, R²) que valida la robustez de la interacción proteína-proteína.
+
+🧑‍🔬 Autor
+José Ignacio Peinador Sala
+Investigador Independiente – Plataforma PIA
+
+📧 joseignacio.peinador@gmail.com
+🔗 ORCID: 0009-0008-1822-3452
+
+⭐ Si este pipeline te resulta útil, ¡considera dejar una estrella en el repo!
