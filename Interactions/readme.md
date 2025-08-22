@@ -33,6 +33,16 @@ Este segundo notebook está específicamente diseñado para **generar y visualiz
 👉 **Abrir en Google Colab:**
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1VghJ-0wAsh_N895uYCMhDKcMBpYGW0uY)
 
+👉 **Genera tu propio Notebook en Google Colab:**
+Descarga el notebook desde la carpeta de interacciones del repositorio:
+Electrostatic_pose.ipynb
+
+Súbelo a tu Google Colab creando un notebook nuevo y seleccionando Archivo > Subir notebook....
+
+Sube el archivo PDB (PIA_KRASv2Nb_renumbered.pdb) al entorno de Colab.
+
+Ejecuta las celdas en orden.
+
 ---
 
 ## 📊 Contenido y Resultados
