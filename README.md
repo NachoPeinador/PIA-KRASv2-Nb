@@ -28,24 +28,26 @@ The nanobody's high affinity is driven by two key principles that were validated
 
 2.  **Dynamic Stability (The "Molecular Velcro")**
     Once anchored, the binding is secured by a dense and persistent network of interactions, confirmed by a **10 ns MD trajectory**:
-    * **RMSD Plateau:** The complex stabilizes at ~2.3 Å and remains tightly bound.
-    * **Persistent Contacts:** Over 90% of key interfacial contacts, including the central polar cluster (SER54–GLU24), remain stable across the entire simulation.
-    * **Rigid Anchor:** The CDR3 loop shows minimal fluctuations (<0.3 Å), acting as a rigid binding anchor.
+    * **RMSD Plateau:** The complex's framework stabilizes at a low RMSD, indicating high structural integrity.
+    * **Interface Maturation & Convergence:** The number of residue-residue contacts progressively increases, converging to a stable network of ~30 pairs, which demonstrates the interface optimizing itself over time.
+    * **Rigid Anchor:** The CDR3 loop shows minimal fluctuations, acting as a rigid binding anchor.
 
-    ![Dynamic Stability RMSD Plot](https://raw.githubusercontent.com/NachoPeinador/PIA-KRASv2-Nb/main/MD_Simulation/rmsd_plot.png)
-    📌 *10 ns OpenMM simulation — RMSD evolution confirms strong and persistent binding.*
+    ![Dynamic Analysis (10 ns)](https://raw.githubusercontent.com/NachoPeinador/PIA-KRASv2-Nb/main/MD_Simulation/full_analysis_plot_10ns.png)
+    📌 *10 ns OpenMM simulation — RMSD evolution (top) and contact network maturation (bottom) confirm a strong and convergent binding.*
 
 ---
 
 ## 🚀 Run the Analysis Pipelines in Google Colab
 
-This project provides complete, three-step pipelines. **Run them in order:**
+This project provides complete pipelines for both static and dynamic analysis.
 
-| Step | Description | Link |
+| Pipeline | Description | Link |
 | :--- | :---------- | :--- |
-| **1** | **MD Simulation** (Run first) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1W2FtbyPI9uDkZCDqqdFkd6nVQfMoj_Kj) |
-| **2** | **Trajectory Analysis** (After Step 1) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Aue7oYHIFAmSe5xPwzyUB-HXJ6NgqNVb) |
-| **3** | **Electrostatic Analysis** (Static Pose)| [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1VghJ-0wAsh_N895uYCMhDKcMBpYGW0uY) |
+| **Static Pose Analysis** | Characterize a static pose (contacts, SASA) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qyyJtn2fAQABQcl6zN6a3IkVf89yknDh?usp=sharing) |
+| **MD Simulation** | Run the 10 ns MD simulation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1W2FtbyPI9uDkZCDqqdFkd6nVQfMoj_Kj) |
+| **Trajectory Analysis** | Analyze the results of the MD simulation | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Aue7oYHIFAmSe5xPwzyUB-HXJ6NgqNVb) |
+| **Electrostatic Analysis** | Generate the electrostatic potential map | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1VghJ-0wAsh_N895uYCMhDKcMBpYGW0uY) |
+
 
 ---
 
@@ -82,13 +84,4 @@ This project provides complete, three-step pipelines. **Run them in order:**
 
 ## 🤝 Contact & Collaboration
 
-This project is open for experimental validation. If you work in immunotherapy, structural biology, or cellular assays and are interested in collaborating:
-
-### [📧 Nacho Peinador](mailto:joseignacio.peinador@gmail.com)
-**ORCID:** [https://orcid.org/0009-0008-1822-3452](https://orcid.org/0009-0008-1822-3452)
-
----
-
-## 📄 License
-
-Licensed under Creative Commons Attribution-NonCommercial 4.0 International. This work is registered with the Spanish Intellectual Property Registry (RPI) as verifiable proof of authorship. See [LICENSE.md](./LICENSE.md) for terms and conditions for commercial licensing.
+This project is open for experimental validation. If you work in immunotherapy, structural biology, or
