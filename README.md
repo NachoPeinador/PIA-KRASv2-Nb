@@ -84,4 +84,16 @@ This project provides complete pipelines for both static and dynamic analysis.
 
 ## 🤝 Contact & Collaboration
 
-This project is open for experimental validation. If you work in immunotherapy, structural biology, or
+This project is open for experimental validation. If you work in immunotherapy, structural biology, or cellular assays and are interested in collaborating:  
+
+### [📧 Nacho Peinador](mailto:joseignacio.peinador@gmail.com)  
+**ORCID:** [https://orcid.org/0009-0008-1822-3452](https://orcid.org/0009-0008-1822-3452)  
+
+---
+
+## 📄 License
+
+Licensed under Creative Commons Attribution-NonCommercial 4.0 International.  
+This work is registered with the Spanish Intellectual Property Registry (RPI) as verifiable proof of authorship.  
+
+See [LICENSE.md](./LICENSE.md) for terms and conditions for commercial licensing.
