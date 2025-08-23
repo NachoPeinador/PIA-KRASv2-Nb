@@ -51,6 +51,18 @@ This project provides complete pipelines for both static and dynamic analysis.
 
 ---
 
+## 💾 Full Raw Data (10 ns Trajectory)
+
+Due to its large size (>1 GB), the raw trajectory file (`trajectory.dcd`) from the 10 ns molecular dynamics simulation is hosted externally on Google Drive.
+
+This file is required to run the full trajectory analysis notebook from scratch.
+
+* **File:** `trajectory.dcd`
+* **Size:** [1.6 GB]
+* **Download Link:** **[Click here to download from Google Drive](https://drive.google.com/file/d/1PdK_lJaL6kLed-HCFi5M2ifksLsGNgnS/view?usp=drive_link)**
+
+---
+
 ## 📂 Repository Contents
 
 * 🇬🇧 [**`PIA-KRASv2-Nb_Report_ENG.pdf`**](./PIA-KRASv2-Nb_Report_ENG.pdf): Full scientific report in English.
