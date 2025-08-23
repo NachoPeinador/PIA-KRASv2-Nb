@@ -59,7 +59,7 @@ This file is required to run the full trajectory analysis notebook from scratch.
 
 * **File:** `trajectory.dcd`
 * **Size:** [1.6 GB]
-* **Download Link:** **[Click here to download from Google Drive](https://drive.google.com/file/d/1PdK_lJaL6kLed-HCFi5M2ifksLsGNgnS/view?usp=drive_link)**
+* **Download Link:** **[Click here to download from Google Drive](https://bit.ly/PIA-KRAS-trajectory)**
 
 ---
 
