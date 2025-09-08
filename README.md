@@ -108,4 +108,4 @@ This project is open for experimental validation. If you work in immunotherapy, 
 Licensed under Creative Commons Attribution-NonCommercial 4.0 International.  
 This work is registered with the Spanish Intellectual Property Registry (RPI) as verifiable proof of authorship.  
 
-See [LICENSE.md]([(https://github.com/NachoPeinador/PIA-KRASv2-Nb/blob/main/LICENSE.md)] for terms and conditions for commercial licensing.
+See [LICENSE.md]([([https://github.com/NachoPeinador/PIA-KRASv2-Nb/blob/main/LICENSE.md](https://github.com/NachoPeinador/PIA-KRASv2-Nb/blob/main/LICENSE))] for terms and conditions for commercial licensing.
