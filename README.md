@@ -1,6 +1,6 @@
 # PIA-KRASv2-Nb: Computational Design of a High-Affinity Nanobody against KRAS Switch-I
 
-[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.16578454-blue)](https://doi.org/10.5281/zenodo.16578454)
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.16578454-blue)](https://doi.org/10.5281/zenodo.18261410)
 [![OpenAIRE](https://img.shields.io/badge/OpenAIRE-Indexed-green)](https://explore.openaire.eu/search/publication?pid=10.5281%2Fzenodo.16578455)
 ![Mechanism](https://img.shields.io/badge/Activity-Pan--Mutant-orange)
 ![Affinity](https://img.shields.io/badge/Kd-6.7%20nM-brightgreen)
