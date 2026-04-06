@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this sequence, methodology, or data in your research, please cite the official peer-reviewed publication below."
+title: "PIA-KRASv2-Nb: Sequence and Structural Data"
+authors:
+  - family-names: "Peinador Sala"
+    given-names: "José Ignacio"
+    orcid: "https://orcid.org/0009-0008-1822-3452"
+url: "https://github.com/NachoPeinador/PIA-KRASv2-Nb"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.18261410"
+    description: "Zenodo Repository for Data and Trajectories"
+license: CC-BY-NC-4.0
+preferred-citation:
+  type: article
+  title: "Computational Design of a Predicted High-Affinity Humanised Nanobody against KRAS Switch-I using Spectral Sequence Optimisation and Deep Learning Validation"
+  authors:
+    - family-names: "Peinador Sala"
+      given-names: "José Ignacio"
+      orcid: "https://orcid.org/0009-0008-1822-3452"
+  journal: "Research Connections"
+  year: 2026
+  doi: "10.1093/rescon/vmag036"
+  publisher:
+    name: "Oxford University Press"
+  url: "https://doi.org/10.1093/rescon/vmag036"
