@@ -1,13 +1,15 @@
 # License for the PIA-KRASv2-Nb Project
 
 **Title of the Work:** PIA-KRASv2-Nb - Computational Design of an Anti-KRAS Nanobody
-**Author and Copyright Holder:** © 2025 Nacho Peinador Sala
+**Author and Copyright Holder:** © 2026 José Ignacio Peinador Sala
 
 ---
 
 ## 1. Main License
 
-This work, including the source code, data, models, and associated manuscript, is distributed under the terms of the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
+This repository, including the source code, sequence data, structural models, and trajectory files, is distributed under the terms of the **Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)** license.
+
+*(Note: The associated peer-reviewed manuscript is published by Oxford University Press under its respective Open Access license. Please refer to the journal for article-specific distribution rights).*
 
 To view a full and legally binding copy of this license, please visit:
 [https://creativecommons.org/licenses/by-nc/4.0/](https://creativecommons.org/licenses/by-nc/4.0/)
@@ -21,8 +23,9 @@ To view a full and legally binding copy of this license, please visit:
 
 **Under the following terms:**
 
-* **Attribution:** You must give appropriate credit to the author (Nacho Peinador Sala), provide a link to the CC BY-NC 4.0 license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-* **NonCommercial:** You may not use the material for commercial purposes.
+* **Attribution:** You must give appropriate credit to the author, provide a link to the CC BY-NC 4.0 license, and indicate if changes were made. **Crucially, appropriate credit for academic or research use must include citing the official peer-reviewed publication:**
+  > *Peinador Sala, J.I. (2026). Computational Design of a Predicted High-Affinity Humanised Nanobody against KRAS Switch-I using Spectral Sequence Optimisation and Deep Learning Validation. Research Connections, vmag036. DOI: 10.1093/rescon/vmag036*
+* **NonCommercial:** You may not use the material for commercial purposes (e.g., selling the sequence, incorporating it into a patented commercial drug without a separate agreement).
 
 ---
 
@@ -30,17 +33,17 @@ To view a full and legally binding copy of this license, please visit:
 
 ### Intellectual Property Registry (RPI)
 
-* This work, including its design methodology ("PIA Method") and specific results, has been registered with the Spanish Intellectual Property Registry with the application file number: **Application file 00765-02731506 (pending resolution)**.
+* This work, including its design methodology ("PIA Method") and specific structural results, has been registered with the Spanish Intellectual Property Registry with the application file number: **Application file 00765-02731506 (pending resolution)**.
 * The CC BY-NC 4.0 license does not affect nor grant any rights to patents or commercial uses that may arise from this registered intellectual property.
 
 ### Dual Licensing for Commercial Use
 
 * Any use of the material for commercial purposes is strictly prohibited under the CC BY-NC 4.0 license.
-* For inquiries about commercial licenses or any use not permitted by the main license, please contact the author at the following email address: **joseignacio.peinador@gmail.com**.
+* For inquiries about commercial licenses, collaborative *in vitro* development, or any use not permitted by the main license, please contact the author at the following email address: **joseignacio.peinador@gmail.com**.
 
 ---
 
 ## 3. Disclaimer
 
-* **NO WARRANTIES:** The material is provided "as is," without warranties of any kind, express or implied. The author does not guarantee the scientific accuracy of the material, its suitability for any specific purpose, or its correlation with experimental results. Use of this material is at your own exclusive risk.
+* **NO WARRANTIES:** The material is provided "as is," without warranties of any kind, express or implied. This is a theoretical *in silico* design. The author does not guarantee the scientific accuracy of the material, its suitability for any specific clinical or diagnostic purpose, or its correlation with future *in vitro* or *in vivo* experimental results. Use of this material is at your own exclusive risk.
 * **LIMITATION OF LIABILITY:** In no event shall the author be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the work or the use or other dealings in the work.
