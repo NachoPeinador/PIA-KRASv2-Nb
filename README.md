@@ -1,15 +1,26 @@
-# PIA-KRASv2-Nb: Computational Design of a High-Affinity Nanobody against KRAS Switch-I
+# PIA-KRASv2-Nb: Computational Design of a Predicted High-Affinity Humanised Nanobody against KRAS Switch-I
 
-[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.16578454-blue)](https://doi.org/10.5281/zenodo.18261410)
-[![OpenAIRE](https://img.shields.io/badge/OpenAIRE-Indexed-green)](https://explore.openaire.eu/search/publication?pid=10.5281%2Fzenodo.16578455)
-![Mechanism](https://img.shields.io/badge/Activity-Pan--Mutant-orange)
-![Affinity](https://img.shields.io/badge/Kd-6.7%20nM-brightgreen)
-![Humanization](https://img.shields.io/badge/Hu--mAb-Score%201.0-blueviolet)
-![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)
+> **📢 PUBLICATION UPDATE (April 2026):** The peer-reviewed article detailing the design, validation, and dynamics of this nanobody is now officially published in ***Research Connections*** (Oxford University Press). 
+> **[Read the full Open Access paper here](https://doi.org/10.1093/rescon/vmag036)**.
 
-This repository hosts the **revised and validated** design of **PIA-KRASv2-Nb**, a therapeutic nanobody targeting the critical `DEYDPTIEDS` epitope of the KRAS oncoprotein.
+[![Paper DOI](https://img.shields.io/badge/OUP_Article-10.1093/rescon/vmag036-darkblue?style=flat-square)](https://doi.org/10.1093/rescon/vmag036)
+[![Data DOI](https://img.shields.io/badge/Zenodo_Data-10.5281/zenodo.16578454-blue?style=flat-square)](https://doi.org/10.5281/zenodo.18261410)
+![Mechanism](https://img.shields.io/badge/Activity-Pan--Mutant-orange?style=flat-square)
+![Affinity](https://img.shields.io/badge/Predicted_Kd-6.7%20nM-brightgreen?style=flat-square)
+![Humanisation](https://img.shields.io/badge/Hu--mAb_Score-1.0-blueviolet?style=flat-square)
+![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey?style=flat-square)
 
-Designed via **Spectral Sequence Optimization (SSO)**, this candidate has been rigorously validated through orthogonal methods, demonstrating nanomolar affinity ($K_d \approx 6.7$ nM), high specificity, and **pan-mutant potential** against multiple oncogenic variants (G12C, G12D, G12V).
+This repository hosts the **revised and validated** sequence, structural models, and simulation data of **PIA-KRASv2-Nb**, a *de novo* therapeutic nanobody targeting the critical `DEYDPTIEDS` epitope of the KRAS oncoprotein (Switch-I region).
+
+Designed via **Spectral Sequence Optimisation (SSO)**, this candidate has been rigorously validated through orthogonal *in silico* methods, demonstrating nanomolar predicted affinity ($K_d \approx 6.7$ nM), high specificity, exceptional structural stability, and **pan-mutant potential** against multiple oncogenic variants (e.g., G12C, G12D, G12V).
+
+---
+
+## 📝 How to Cite
+
+If you use this sequence, methodology, or data in your research (e.g., for *in vitro* synthesis and testing), please cite the official publication:
+
+> **Peinador Sala, J.I.** (2026). Computational Design of a Predicted High-Affinity Humanised Nanobody against KRAS Switch-I using Spectral Sequence Optimisation and Deep Learning Validation. *Research Connections*, vmag036. [https://doi.org/10.1093/rescon/vmag036](https://doi.org/10.1093/rescon/vmag036)
 
 ![3D Model of PIA-KRASv2-Nb (Seed 72)](https://raw.githubusercontent.com/NachoPeinador/PIA-KRASv2-Nb/main/AlphaFold_images/KRASKILLER.png)
 *Structural model generated with AlphaFold-Multimer v3 (Seed 72). Validated binding energy: -11.6 kcal/mol.*
