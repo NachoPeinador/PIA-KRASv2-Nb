@@ -106,7 +106,7 @@ To verify that the nanobody is indistinguishable from a human VH domain:
 
 ## 📂 Repository Contents
 
--   **[`PIA-KRASv2-Nb_Revised_Report.pdf`](https://www.google.com/search?q=./PIA-KRASv2-Nb_Revised_Report.pdf)**: **NEW!** The complete revised scientific manuscript (2026 Edition).
+-   **[`PIA-KRASv2-Nb_Revised_Report.pdf`](https://doi.org/10.1093/rescon/vmag036)**: **NEW!** The complete revised scientific manuscript (2026 Edition).
     
 -   **[`AlphaFold_models/`](https://www.google.com/search?q=./AlphaFold_models/)**:
     
